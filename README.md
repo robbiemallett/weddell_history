@@ -22,4 +22,8 @@ I was interested in the **cumulative** snowfall that a sea ice floe experiences 
 
 For each month I made a spatial mask of sea ice where its concentration was >50%, and accumulated snowfall. I then summed along the time dimension so I had a cumulative value in each grid cell for the season. I then took the spatial average to get a single, cumulative snowfall value for the Arctic, the Antarctic, and the Weddell Sea specifically. I defined the Weddell as having a longitude between 15°W & 60°W. 
 
-![Alt text](/figures/snowfall_lineplots.jpg)
+<img
+  src="/figures/snowfall_lineplot.jpg"
+  alt="Alt text"
+  title="Optional title"
+  style=max-width: 300px">
