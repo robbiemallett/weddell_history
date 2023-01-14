@@ -24,6 +24,4 @@ For each month I made a spatial mask of sea ice where its concentration was >50%
 
 <img
   src="/figures/snowfall_lineplots.jpg"
-  alt="Alt text"
-  title="Optional title"
-  style=max-width: 300px">
+  style="max-width: 300px">
