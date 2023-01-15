@@ -25,3 +25,25 @@ For each month I made a spatial mask of sea ice where its concentration was >50%
 <img
   src="/figures/snowfall_lineplots.jpg"
   style="display: inline-block; margin: 0 auto;max-width: 100px">
+
+
+<img
+  src="/figures/snowfall_violins.jpg"
+  style="display: inline-block; margin: 0 auto;max-width: 100px">
+  
+The plots above show that Antarctic sea ice typically experiences three times as much snowfall as its Norethern counterpart. However, the Weddell Sea only has twice as much. This is fairly consitently the case - i.e. there haven't been any years where either the Weddell Sea or Antarctica as a whole has seen an "Arctic-like" quantity of snowfall. 
+
+## Back-tracing the floe trajectories
+
+We'd like to know where the five floes came from; to do that, we reconstruct their drifting trajectories across the Weddell Sea using [ice motion vectors from OSISAF](https://osisaf-hl.met.no/osi-405-c-desc
+). A description of the methodology behind these vectors is [Lavergne, et al. (2010)](https://doi.org/10.1029/2009JC005958).
+
+### Method
+
+I downloaded the daily ice motion vectors from the OSISAF FTP between January 1st 2021 - May 1st 2022. This covers just over a year of vectors. The actual data in the files is the ice displacement over 48 hours, so for a day I've just halved this. At each timestep, I displace the final position of the floes by the negative of the ice motion vector in the nearest valid grid cell in the file for that day. I stop the algorithm if the nearest grid cell to the floe is land or land-ice: by not stopping for anything else, these trajectories are probably too long. But they're still a good guide to the range of locations from which the floes have come. 
+
+<img
+  src="/figures/floe_trajectories.jpg"
+  style="display: inline-block; margin: 0 auto;max-width: 100px">
+  
+ 
