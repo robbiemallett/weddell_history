@@ -46,4 +46,27 @@ I downloaded the daily ice motion vectors from the OSISAF FTP between January 1s
   src="/figures/floe_trajectories.jpg"
   style="display: inline-block; margin: 0 auto;max-width: 100px">
   
+The green area in the above plot indicates the sea ice distribution on the day on which the final floe was visited (24th March). Blue areas indicate areas perennially covered by ice shelves. Red dots indicdate the five ice floes on the days on which they were visited.
+
+The floes come from quite diverse origins, particularly Floe 1. That's noticeable because it had a clearly softer and thinner remnant snow layer on it, and was the only floe where we were able to easily access the snow-ice interface. 
+
+## What weather did the floes experience on their journeys?
+
+Now we have the trajectories of the floes in time and space, we can reconstruct the weather that they experienced prior to our measurements. Of particular interest is the snowfall experienced by the floes before and after of the fall freeze-up. I defined the timing of the freeze-up as the last day on which surface air temperatures in ERA5 were at or above zero degrees. This occurred in February for all five floes. 
+
+I then did a cumulative sum of the snowfall after that date.
+
+<img
+  src="/figures/floe_weather.jpg"
+  style="display: inline-block; margin: 0 auto;max-width: 100px">
+  
+  In the figure above I've indicated the 0C threshold with the red dashed line, and my definition of the Fall freeze-up timing with the vertical blue dashed line. The blue solid line indicates the cumulative snofall since that date. 
+  
+ We can plot this cumulative snowfall against the typical accumulated snow on a regional scale:
  
+ 
+<img
+  src="/figures/snowfall_violins_with_floes.jpg"
+  style="display: inline-block; margin: 0 auto;max-width: 100px">
+  
+The plot above indicates that post-feeeze-up snowfall that the floes typically received is basically what an Arctic floe would receive in a whole winter. So we can perhaps imagine the situation as that of an Arctic snowpack superimposed on top of the remnant snow from the summer.
