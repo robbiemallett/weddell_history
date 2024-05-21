@@ -6,12 +6,6 @@ The purpose of the code in this repository is to plot the positions of the floes
 
 Also in the repo is code to compare average snowfall amounts over sea ice, in the Arctic, the Antarctic, and in the Weddell Sea specifically. Doing this allows us to compare the snowfall that our five floes saw with what would "typically" be experienced in Antarctica at-large, and also within the Arctic.
 
-## Characterising typical snowfall over sea ice in the Arctic and Antarctic.
-
-In-situ and airborne data indicate that snow on Antarctic sea ice is deeper than in the Arctic. This is worth a quick investigation with ERA5 atmospheric reanalysis data, because it tells us (a) how true that is in the Weddell sea (b) how typical was the snowfall-experience of our five floes in 2022.
-
-This part gets done in [Snow_reanalysis.ipynb](https://github.com/robbiemallett/weddell_history/blob/main/notebooks/Snow_reanalysis.ipynb)
-
 ### Method
 
 The code to download the required data is at the bottom of the notebook. It uses the Python API that interfaces with the Copernicus data store. Very easy to set up if you haven't used it before.
