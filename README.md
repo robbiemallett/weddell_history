@@ -32,12 +32,3 @@ I then did a cumulative sum of the snowfall after that date.
   style="display: inline-block; margin: 0 auto;max-width: 100px">
   
   In the figure above I've indicated the 0C threshold with the red dashed line, and my definition of the Fall freeze-up timing with the vertical blue dashed line. The blue solid line indicates the cumulative snofall since that date. 
-  
- We can plot this cumulative snowfall against the typical accumulated snow on a regional scale:
- 
- 
-<img
-  src="/figures/snowfall_violins_with_floes.jpg"
-  style="display: inline-block; margin: 0 auto;max-width: 100px">
-  
-The plot above indicates that post-feeeze-up snowfall that the floes typically received is basically what an Arctic floe would receive in a whole winter. So we can perhaps imagine the situation as that of an Arctic snowpack superimposed on top of the remnant snow from the summer.
