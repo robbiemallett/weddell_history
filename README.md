@@ -1,6 +1,10 @@
-# Data and code for floe-related figures in Willatt, Mallett et al. (In Review)
+# Data and code for floe-related figures in Willatt et al. (In Review)
 
 This repository contains the necessary data and code to produce Figure 1 of the main manuscript, and Supplementary Figure S1.
+
+The code is found in /notebooks/
+
+Data is in /data/, with the exception of the OSISAF ice motion vectors which need to be downloaded from the links below.
 
 ## Back-tracing the floe trajectories
 
