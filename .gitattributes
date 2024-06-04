@@ -1,0 +1,4 @@
+data/ERA5/2022_weather.nc filter=lfs diff=lfs merge=lfs -text
+data/ERA5/NH.nc filter=lfs diff=lfs merge=lfs -text
+data/ERA5/SH.nc filter=lfs diff=lfs merge=lfs -text
+data/ERA5/2021_weather.nc filter=lfs diff=lfs merge=lfs -text
