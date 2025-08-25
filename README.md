@@ -1,6 +1,7 @@
-# Data and code for floe-related figures in Willatt et al. (In Review)
+## Data and code for floe-related figures in Willatt et al. ([2025; GRL](https://doi.org/10.1029/2024GL112870))
 
-This repository contains the necessary data and code to produce Figure 1 of the main manuscript, and Supplementary Figure S1.
+
+This repository contains the necessary data and code to produce the inset map of Figure 1, as well as Figures S1 & S2 from the supporting information.
 
 The code is found in /notebooks/
 
